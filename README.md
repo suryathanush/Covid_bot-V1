@@ -1,4 +1,4 @@
-****Covid\_bot V1****
+**Covid\_bot V1**
 
 - Covid\_bot V1 was solely made for educational and informative purposes.
 - We are not intended to misguide the users through our service.
@@ -12,15 +12,15 @@ It is a non profit service
 
 We expect
 
-- No signup
+No signup
 
-- No fees
+No fees
 
-- No registration
+No registration
 
-- No standalone app or website running
+No standalone app or website running
 
-- No special permission granted
+No special permission granted
 
 Users will start receiving COVID updates every morning once they send their state name to the assigned whatsapp chat.
 
