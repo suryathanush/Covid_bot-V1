@@ -1,7 +1,7 @@
 # **Covid\_bot V1**
 
 - Covid\_bot V1 was solely made for educational and informative purposes.
-- We are not intended to misguide the users through our service.
+- it is not intended to misguide the users through its service.
 - All the data regarding COVID19 that we will be working on is from Government health bulletins and reputed news channels and blogs.
 
 ## **About :**
