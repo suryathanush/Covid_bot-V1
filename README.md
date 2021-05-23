@@ -28,7 +28,6 @@ The background python code will solely be responsible for processing the message
 ### **wh.py :**
 
 This code was responsible for responding to user&#39;s messages and accordingly
-
 This code continuously checks for new messages and act according to them
 
 ### **graphs.py:**
