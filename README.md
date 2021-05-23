@@ -54,3 +54,6 @@ This code provides the necessary defined classes and methods for wh.py and graph
 - The user&#39;s subscription data was stored in csv format with separate user privilege, so that the data is not prone to internet frauds and is completely bootstrapped.
 - Once the user has unsubscribed from the service, all the user&#39;s subscription data will be completely wiped off.
 - The bot has no trackers to track your chat behaviour, it is made to **act on a request** model.
+
+
+## **stay tuned for Covid_bot V2 update................................**
