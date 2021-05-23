@@ -4,7 +4,7 @@
 - We are not intended to misguide the users through our service.
 - All the data regarding COVID19 that we will be working on is from Government health bulletins and reputed news channels and blogs.
 
-**About :**
+## **About :**
 
 Covid\_bot V1 was a computer automated COVID informative service which updates the users with COVID updates directly through their whatsapp chat.
 
