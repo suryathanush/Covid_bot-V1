@@ -118,6 +118,7 @@ if input() == "start":
                     print(resp)
                     response(data=resp)
                     driver.find_element_by_css_selector("._1E0Oz").click()
+                    time.sleep(0.2)
 
                 # --------------update div_count2 variable with the new div in chat box
                 div_count2 = driver.find_elements_by_xpath(
