@@ -60,14 +60,20 @@ if input() == "start":
                         except:
                             pass
                         print(num + ":" + msg)
-                        resp = msgresponse().check_func(
-                            number=num, message=msg
-                        )  # ----method from classes.py to process the msg
-                        print(resp)
-                        response(data=resp)
-                        driver.find_element_by_css_selector(
-                            "._1E0Oz"
-                        ).click()  # ------click on send button
+                        if (
+                            (msg.lower().find("thank") == -1)
+                            and (msg.lower() != "ok")
+                            and (msg.lower() != "okay")
+                            and (msg.lower() != "k")
+                        ):
+                            resp = msgresponse().check_func(
+                                number=num, message=msg
+                            )  # ----method from classes.py to process the msg
+                            print(resp)
+                            response(data=resp)
+                            driver.find_element_by_css_selector(
+                                "._1E0Oz"
+                            ).click()  # ------click on send button
                         div_count2 = driver.find_elements_by_xpath(
                             '//*[@id="main"]/div[3]/div/div/div[last()-1]/div'
                         )
@@ -102,9 +108,9 @@ if input() == "start":
                 # ------------if the msg content was any of 'thank','ok','okay','k', do not send it to processing
                 if (
                     (msg.lower().find("thank") == -1)
-                    or (msg.lower() != "ok")
-                    or (msg.lower() != "okay")
-                    or (msg.lower() != "k")
+                    and (msg.lower() != "ok")
+                    and (msg.lower() != "okay")
+                    and (msg.lower() != "k")
                 ):
                     resp = msgresponse().check_func(
                         number=num, message=msg
