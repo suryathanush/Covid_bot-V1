@@ -56,4 +56,4 @@ This code provides the necessary defined classes and methods for wh.py and graph
 - The bot has no trackers to track your chat behaviour, it is made to **act on a request** model.
 
 
-### **...............stay tuned for Covid\_bot V2 update ................................**
+### **...................................stay tuned for Covid\_bot V2 update .............................................**
