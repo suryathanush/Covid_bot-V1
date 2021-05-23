@@ -11,15 +11,10 @@ Covid\_bot V1 was a computer automated COVID informative service which updates t
 It is a non profit service
 
 We expect
-
 - No signup
-
 - No fees
-
 - No registration
-
 - No standalone app or website running
-
 - No special permission granted
 
 Users will start receiving COVID updates every morning once they send their state name to the assigned whatsapp chat.
