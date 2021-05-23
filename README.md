@@ -24,19 +24,19 @@ No special permission granted
 
 Users will start receiving COVID updates every morning once they send their state name to the assigned whatsapp chat.
 
-**How it works:**
+## **How it works:**
 
 Assigned whatsapp account will be under automation using webdrivers(selenium)
 
 The background python code will solely be responsible for processing the messages and responses in whatsapp chat.
 
-**wh.py :**
+### **wh.py :**
 
 This code was responsible for responding to user&#39;s messages and accordingly
 
 This code continuously checks for new messages and act according to them
 
-**graphs.py:**
+### **graphs.py:**
 
 This code was responsible for fetching the COVID19 related data from API, filter, process and plot graphs with the processed data.
 
@@ -48,6 +48,6 @@ Once all the users were updated, this code shuts down thereby waking up wh.py ex
 
 This cycle repeats every 24 hours
 
-**classes.py :**
+### **classes.py :**
 
 This code provides the necessary defined classes and methods for wh.py and graphs.py in their execution
