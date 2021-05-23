@@ -27,7 +27,7 @@ The background python code will solely be responsible for processing the message
 
 ### **wh.py :**
 
-This code was responsible for responding to user&#39;s messages and accordingly
+This code was responsible for responding to user&#39;s messages and act accordingly
 
 This code continuously checks for new messages and act according to them
 
@@ -52,5 +52,5 @@ This code provides the necessary defined classes and methods for wh.py and graph
 - The only data that will be stored as subscription data was your phone number and subscribed state.
 - To avoid threat prone to local databases on computers through LAN trespassers, we avoided use of database engines.
 - The user&#39;s subscription data was stored in csv format with separate user privilege, so that the data is not prone to internet frauds and is completely bootstrapped.
-- Once the user has unsubscribed from the service, all the users subscription data will be completely wiped off.
-- The bot has no trackers to track your chat behaviour, it is made to act on a request model.
+- Once the user has unsubscribed from the service, all the user&#39;s subscription data will be completely wiped off.
+- The bot has no trackers to track your chat behaviour, it is made to **act on a request** model.
